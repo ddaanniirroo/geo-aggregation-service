@@ -13,6 +13,10 @@
 3. Запустите сервис с использованием Docker Compose:
 
     ```docker-compose up```
+
+4. Откройте веб-браузер и перейдите по следующей ссылке:
+
+    [http://localhost:80/docs](http://localhost:80/docs)
       
 
 ## Использование
