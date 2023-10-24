@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: .
+    container_name: fastapi-application
+    environment:
+      PORT: 80
+    ports:
+      - '80:80'
+    restart: "no"
