@@ -1,10 +1,9 @@
-from fastapi import FastAPI, APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException
 from h3 import h3
-from pydantic import BaseModel
-from typing import List
-from service.data_loader import load_data
-from service.models import Geometry, AggregationRequest
 import numpy as np
+
+from service.data_loader import load_data
+from service.models import AggregationRequest
 
 
 app = APIRouter()

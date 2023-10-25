@@ -1,10 +1,5 @@
 import pandas as pd
-import h3, json
-
-# def convert_to_h3(coordinates):
-#     lat, lon = coordinates[1], coordinates[0]
-#     h3_hex = h3.geo_to_h3(lat, lon, resolution=11)
-#     return h3_hex
+import h3
 
 def load_data():
 	df = pd.read_csv('data/apartments.csv')

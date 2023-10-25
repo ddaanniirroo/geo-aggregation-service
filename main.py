@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from service.aggregator import app as aggregator_app
-from service.data_loader import load_data
 from fastapi.exceptions import RequestValidationError
 from starlette.responses import JSONResponse
+
+from service.data_loader import load_data
 
 app = FastAPI()
 
